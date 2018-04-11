@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
             // library: 'ycpLib',
             // globalObject: 'this',
             // umdNamedDefine: true,
-            libraryTarget: 'commonjs-module'
+            libraryTarget: 'ES2015'
         },
         module: {
             // rules: [
