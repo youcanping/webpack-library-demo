@@ -1,6 +1,6 @@
 {
   "name": "ycp-lib-test",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ycp lib tree shaking test",
   "main": "dist/ycp-lib-test.min.js",
   "browser": "dist/ycp-lib-test.min.js",
