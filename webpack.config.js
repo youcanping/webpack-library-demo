@@ -9,19 +9,19 @@ module.exports = (env, argv) => {
         output: {
             path: __dirname,
             filename: '[name]',
-            library: 'ycpLib',
-            globalObject: 'this',
-            libraryTarget: 'umd',
-            umdNamedDefine: true
+            // library: 'ycpLib',
+            // globalObject: 'this',
+            // umdNamedDefine: true,
+            libraryTarget: 'commonjs-module'
         },
         module: {
-            rules: [
-                {
-                    test: /\.js$/,
-                    loader: 'babel-loader',
-                    exclude: /node_modules/
-                }
-            ]
+            // rules: [
+            //     {
+            //         test: /\.js$/,
+            //         loader: 'babel-loader',
+            //         exclude: /node_modules/
+            //     }
+            // ]
         }
     }
 };

@@ -2,11 +2,9 @@
   "name": "ycp-lib-test",
   "version": "1.0.1",
   "description": "ycp lib tree shaking test",
-  "main": "dist/ycp-lib-test.min.js",
-  "browser": "dist/ycp-lib-test.min.js",
-  "module": "src/index.js",
-  "moudles:root": "src/modules",
-  "jsnext:main": "src/index.js",
+  "main": "dist/ycp-lib-test.js",
+  "module": "dist/ycp-lib-test.js",
+  "jsnext:main": "dist/ycp-lib-test.js",
   "scripts": {
     "build": "webpack --mode production --config webpack.config.js",
     "test": "echo \"Error: no test specified\" && exit 1"
