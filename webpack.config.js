@@ -13,6 +13,15 @@ module.exports = (env, argv) => {
             globalObject: 'this',
             libraryTarget: 'umd',
             umdNamedDefine: true
+        },
+        module: {
+            rules: [
+                {
+                    test: /\.js$/,
+                    loader: 'babel-loader',
+                    exclude: /node_modules/
+                }
+            ]
         }
     }
 };
