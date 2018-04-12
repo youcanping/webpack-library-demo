@@ -1,5 +1,3 @@
-import reduce from "./modules/reduce";
-import add from "./modules/add";
-import multiple from './modules/multiple';
-
-export { reduce, add, multiple };
+export * from "./modules/reduce";
+export * from "./modules/add";
+export * from './modules/multiple';

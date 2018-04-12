@@ -1,4 +1,4 @@
-const pkg  = require('./package');
+const pkg  = require('./package.json');
 const path = require('path');
 
 module.exports = (env, argv) => {
@@ -12,7 +12,7 @@ module.exports = (env, argv) => {
             // library: 'ycpLib',
             // globalObject: 'this',
             // umdNamedDefine: true,
-            libraryTarget: 'ES2015'
+            libraryTarget: 'commonjs-module'
         },
         module: {
             // rules: [
