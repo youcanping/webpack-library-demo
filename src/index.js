@@ -1,3 +1,7 @@
-export * from "./modules/reduce";
-export * from "./modules/add";
-export * from './modules/multiple';
+export function add() {
+    return "add function";
+}
+
+export function reduce() {
+    return "reduce function";
+}

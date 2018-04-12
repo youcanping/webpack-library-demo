@@ -18,6 +18,11 @@
     "webpack": "^4.5.0",
     "webpack-cli": "^2.0.14"
   },
+  "files": [
+    "lib",
+    "src",
+    "dist"
+  ],
   "dependencies": {
     "babel-plugin-add-module-exports": "^0.2.1"
   }
