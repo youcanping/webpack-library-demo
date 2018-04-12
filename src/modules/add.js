@@ -1,4 +1,4 @@
 
-export default add =  () => {
-    return "a + b";
+export function add() {
+    return "add function";
 }

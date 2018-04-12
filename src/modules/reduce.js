@@ -1,3 +1,3 @@
-export const reduct =  () => {
-    return "a - b";
-};
+export function reduce() {
+    return "reduce function";
+}
